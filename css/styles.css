@@ -245,23 +245,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
   width: 44px;
   height: 44px;
   padding: 10px;
   border-radius: 50%;
+  background-color: #fff;
+  fill: #afb1b8;
   cursor: pointer;
 }
 .social-icon-tile:not(:last-child) {
   margin-right: 10px;
 }
-.icon {
-  fill: #afb1b8;
-}
 .social-icon-tile:hover,
-.icon:hover,
-.social-icon-tile:focus,
-.icon:focus {
+.social-icon-tile:focus {
   background-color: var(--checkmark-color);
   fill: var(--background-color);
 }
